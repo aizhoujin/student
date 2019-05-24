@@ -114,7 +114,7 @@
             this.$store.commit('loadChange', true);
             userLogin(this.loginForm).then(res => {
               this.$store.commit('loadChange', false);
-              if (res.data.code == 200) {
+              if (res.data.code) {
                 Toast('登陆成功');
                 let userInfo = res.data.data;
                 window.localStorage.setItem('userInfo', JSON.stringify(userInfo));

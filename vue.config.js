@@ -21,14 +21,11 @@ module.exports = {
     devServer: {
         host: '0.0.0.0',
         port: 8000,
-        open: 'Chrome',
-        proxy: {
-            '/api': {
-                target: 'http://localhost:3000',
-                pathRewrite: {'^/api': ''}
-            }
-        }
+        // proxy: {
+        //     '/wechat': {
+        //         target: 'http://api.xiaoxunbang.com/wechat',
+        //         pathRewrite: {'^/wechat': ''}
+        //     }
+        // }
     },
-
-
 }
