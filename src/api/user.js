@@ -6,8 +6,6 @@ export const userLogin = (data) => {
   return request({
     url: `${baseUrl}/api/login`,
     method: 'post',
-    headers: {
-    },
     params: {
       userName: data.username,
       password: data.password

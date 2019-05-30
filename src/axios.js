@@ -16,10 +16,12 @@ msg = '服务器君开小差了，请稍后重试';
 
 // HTTPresquest
 axios.interceptors.request.use(config => {
-  let userInfo = JSON.parse(window.localStorage.getItem("userInfo"));
-  if (userInfo) {
-    config.headers['token'] = userInfo.token; // 让每个请求携带token-- ['X-Token']为自定义key 请根据实际情况自行修改
-  }
+    console.log(1)
+  // let userInfo = JSON.parse(window.localStorage.getItem("userInfo"));
+    // if (userInfo) {
+    //   config.headers['token'] = userInfo.token; // 让每个请求携带token-- ['X-Token']为自定义key 请根据实际情况自行修改
+    // }
+
 
   return config;
 }, error => {

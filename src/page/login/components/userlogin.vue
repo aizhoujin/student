@@ -112,6 +112,7 @@
         this.$refs.loginForm.validate(valid => {
           if (valid) {
             this.$store.commit('loadChange', true);
+            console.log(this.loginForm);
             userLogin(this.loginForm).then(res => {
               this.$store.commit('loadChange', false);
               if (res.data.code) {

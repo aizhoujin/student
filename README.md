@@ -1,6 +1,9 @@
 # student
 
 ## Project setup
+
+## Based on the vue@cli 3.x
+
 ```
 npm install
 ```
