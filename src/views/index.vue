@@ -28,20 +28,20 @@
                 homeFooter: [
                     {
                         'title': '首页',
-                        'img': require('../assets/icon_首页/tabbar/首页/default.png'),
-                        'imgActive': require('../assets/icon_首页/tabbar/首页/selected.png'),
+                        'img': require('../assets/home/tabbar/home/default.png'),
+                        'imgActive': require('../assets/home/tabbar/home/selected.png'),
                         'path': '/index/home'
                     },
                     {
                         'title': '微聊',
-                        'img': require('../assets/icon_首页/tabbar/微聊/default copy48px.png'),
-                        'imgActive': require('../assets/icon_首页/tabbar/微聊/selected48px.png'),
+                        'img': require('../assets/home/tabbar/chat/default copy48px.png'),
+                        'imgActive': require('../assets/home/tabbar/chat/selected48px.png'),
                         'path': '/index/chat'
                     },
                     {
                         'title': '我的',
-                        'img': require('../assets/icon_首页/tabbar/我的/default48px.png'),
-                        'imgActive': require('../assets/icon_首页/tabbar/我的/selected48px.png'),
+                        'img': require('../assets/home/tabbar/user/default48px.png'),
+                        'imgActive': require('../assets/home/tabbar/user/selected48px.png'),
                         'path': '/index/user'
                     }
                 ],
